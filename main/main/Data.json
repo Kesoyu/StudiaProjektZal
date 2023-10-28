@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Jan",
+    "surname": "Kowalski",
+    "age": 22,
+    "id": 1,
+    "type": "Customer", //Customer
+    "country": "Poland"
+  },
+  {
+    "name": "Patryk",
+    "surname": "Nowak",
+    "age": 18,
+    "id": 2,
+    "type": "Customer", //Customer
+    "country": "Poland"
+  },
+  {
+    "name": "Artur",
+    "surname": "Plisko",
+    "age": 44,
+    "id": 3,
+    "type": "Customer", //Customer
+    "country": "Poland"
+  },
+  {
+    "name": "Bogdan",
+    "surname": "Wereszczak",
+    "age": 16,
+    "id": 4,
+    "type": "Customer", //Customer
+    "country": "Germany"
+  },
+  {
+    "name": "Dominik",
+    "surname": "Keletka",
+    "age": 63,
+    "id": 5,
+    "type": "Customer", //Customer
+    "country": "Poland"
+  }
+]

@@ -21,5 +21,17 @@
     <ClCompile Include="User.cpp">
       <Filter>Pliki zasobów</Filter>
     </ClCompile>
+    <ClCompile Include="FileMenager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMenager.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorCode.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
+    <ClCompile Include="FileExtension.cpp">
+      <Filter>Pliki zasobów</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
