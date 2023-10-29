@@ -2,13 +2,17 @@
 FileMenager::FileMenager(std::string name, FileExtension extension) {
 	this->fileName = name;
 	this->fileExtension = extension;
+};
+
+void FileMenager::initDataMap() {
 	userTagDict["name"] = "";
 	userTagDict["surname"] = "";
 	userTagDict["age"] = "";
 	userTagDict["id"] = "";
 	userTagDict["type"] = "";
-	userTagDict["country"] = ""
-};
+	userTagDict["country"] = "";
+}
+
 std::string FileMenager::getExtension() {
 	switch (fileExtension) {
 	case FileExtension::json : return ".json";
@@ -18,7 +22,7 @@ std::string FileMenager::getExtension() {
 	};
 }
 
-ErrorCode FileMenager::getData(std::vector<std::string>* table) {
+ErrorCode FileMenager::getData(std::vector<User>* table) {
 	if (getExtension() == "") {
 		return ErrorCode::ErrorFileExtension;
 	}
@@ -41,27 +45,26 @@ ErrorCode FileMenager::getData(std::vector<std::string>* table) {
 				if (character == '"') {
 					for (;;) {
 						character = std::getchar();
-						if (!character == '"') key.push_back(character); else break;
+						if (!(character == '"')) key.push_back(character); else break;
 					}
 				}
 
 				if (character == ':'){
 					for (;;) {
 						character = std::getchar();
-						if (!character == '\n') value.push_back(character); else break;
+						if (!(character == '\n')) value.push_back(character); else break;
 					}
 				}
 
-				if (!(key == "" || value == "")) {
-					switch (key)
-					{
-					case "name":
+				if (!(key == "" || value == ""))
+					userTagDict[key] = value;
+				
 
-						break
-					default:
-						break;
-					}
+				if (character == '}') {
+					User user = {userTagDict["name"], userTagDict["surname"], userTagDict["age"], userTagDict["id"], userTagDict["type"], userTagDict["country"]};
+					this->initDataMap(); //Powinio zresetowaæ wartoœci
 				}
+
 				if (character == ']')
 					file.close();
 

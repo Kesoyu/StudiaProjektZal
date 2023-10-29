@@ -1,18 +1,24 @@
-#include <iostream>
+#include <string>
 struct User {
 protected:
-	std::string firstName;
-	std::string lastName;
-	int idx;
+	std::string name;
+	std::string surname;
+	int age;
+	int id;
+	std::string type;
+	std::string country;
 public:
-	User(std::string fname = "Anonymous", std::string lname = "Anonymous", int id = 0000) : firstName(fname), lastName(lname), idx(id) {};
-	std::string getFirstName() {
-		return firstName;
+	User(std::string n, std::string s, std::string a, std::string i, std::string t, std::string c) : name(n), surname(s), type(t), country(c)  {
+		this->age = std::stoi(a);
+		this->id = std::stoi(i);
+	};
+	std::string getName() {
+		return this->name;
 	}
-	std::string getLastName() {
-		return lastName;
+	std::string getSurname() {
+		return this->surname;
 	}
 	int getId() {
-		return idx;
+		return this->id;
 	}
 };

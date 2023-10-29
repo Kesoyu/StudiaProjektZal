@@ -1,4 +1,7 @@
-﻿  User.cpp
-  LINK : nie znaleziono elementu C:\StudiaProjektZal\main\x64\Debug\main.exe ani nie został on skompilowany podczas ostatniego konsolidowania przyrostowego; zostanie wykonana pełna konsolidacja
-x64\Debug\FileMenager.obj : warning LNK4042: obiekt określono więcej niż raz; dodatkowe wystąpienia zostały zignorowane
-  main.vcxproj -> C:\StudiaProjektZal\main\x64\Debug\main.exe
+﻿  FileMenager.cpp
+C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): error C2512: "User": niedostępny odpowiedni konstruktor domyślny
+C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): message : "User::User": niedostępny odpowiedni konstruktor domyślny
+C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): message : podczas próby dopasowania listy argumentów "()"
+C:\StudiaProjektZal\main\main\FileMenager.cpp(65,6): error C2143: błąd składniowy: brakuje „;” przed „this”
+  User.cpp
+  Generowanie kodu...
