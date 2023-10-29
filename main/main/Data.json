@@ -4,7 +4,7 @@
     "surname": "Kowalski",
     "age": 22,
     "id": 1,
-    "type": "Customer", //Customer
+    "type": "Customer",
     "country": "Poland"
   },
   {
@@ -12,7 +12,7 @@
     "surname": "Nowak",
     "age": 18,
     "id": 2,
-    "type": "Customer", //Customer
+    "type": "Customer",
     "country": "Poland"
   },
   {
@@ -20,7 +20,7 @@
     "surname": "Plisko",
     "age": 44,
     "id": 3,
-    "type": "Customer", //Customer
+    "type": "Customer",
     "country": "Poland"
   },
   {
@@ -28,7 +28,7 @@
     "surname": "Wereszczak",
     "age": 16,
     "id": 4,
-    "type": "Customer", //Customer
+    "type": "Customer",
     "country": "Germany"
   },
   {
@@ -36,7 +36,7 @@
     "surname": "Keletka",
     "age": 63,
     "id": 5,
-    "type": "Customer", //Customer
+    "type": "Customer",
     "country": "Poland"
   }
 ]

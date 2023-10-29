@@ -2,6 +2,12 @@
 FileMenager::FileMenager(std::string name, FileExtension extension) {
 	this->fileName = name;
 	this->fileExtension = extension;
+	userTagDict["name"] = "";
+	userTagDict["surname"] = "";
+	userTagDict["age"] = "";
+	userTagDict["id"] = "";
+	userTagDict["type"] = "";
+	userTagDict["country"] = ""
 };
 std::string FileMenager::getExtension() {
 	switch (fileExtension) {
@@ -27,16 +33,35 @@ ErrorCode FileMenager::getData(std::vector<std::string>* table) {
 		case FileExtension::json :
 			do{
 				char character = std::getchar();
+				std::string key, value;
+
 				if (character == '\n')
 					continue;
 
 				if (character == '"') {
-					std::string signature;
 					for (;;) {
-						
+						character = std::getchar();
+						if (!character == '"') key.push_back(character); else break;
 					}
 				}
 
+				if (character == ':'){
+					for (;;) {
+						character = std::getchar();
+						if (!character == '\n') value.push_back(character); else break;
+					}
+				}
+
+				if (!(key == "" || value == "")) {
+					switch (key)
+					{
+					case "name":
+
+						break
+					default:
+						break;
+					}
+				}
 				if (character == ']')
 					file.close();
 
