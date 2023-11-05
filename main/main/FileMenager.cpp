@@ -5,12 +5,12 @@ FileMenager::FileMenager(std::string name, FileExtension extension) {
 };
 
 void FileMenager::initDataMap() {
-	userTagDict["name"] = "";
-	userTagDict["surname"] = "";
-	userTagDict["age"] = "";
-	userTagDict["id"] = "";
-	userTagDict["type"] = "";
-	userTagDict["country"] = "";
+	userMapDict["name"] = "";
+	userMapDict["surname"] = "";
+	userMapDict["age"] = "";
+	userMapDict["id"] = "";
+	userMapDict["type"] = "";
+	userMapDict["country"] = "";
 }
 
 std::string FileMenager::getExtension() {
@@ -22,66 +22,80 @@ std::string FileMenager::getExtension() {
 	};
 }
 
-ErrorCode FileMenager::getData(std::vector<User>* table) {
+void FileMenager::getData(std::vector<User> *table) {
 	if (getExtension() == "") {
-		return ErrorCode::ErrorFileExtension;
+		throw ErrorCode::ErrorFileExtension;
 	}
 
 	if (!isFileExisting()) {
-		return ErrorCode::ErrorFileName;
+		throw ErrorCode::ErrorFileName;
 	}
-	std::ofstream file;
+	std::ifstream file;
 	file.open(this->fileName + getExtension(), std::ios::out);
 	switch (fileExtension)
 	{
 		case FileExtension::json :
-			do{
-				char character = std::getchar();
-				std::string key, value;
+			do {
+				char character;
+				std::string line, key = "", value = "";
+				std::getline(file, line, '\n');
+				for (int i = 0; i < line.length(); i++)
+					if (line[i] == '\n' || line[i] == '\t' || line[i] == '\b' || line[i] == ' ')
+						line.erase(i--, 1);	
 
-				if (character == '\n')
-					continue;
+				for (int i = 0; i <= line.length(); i++) {
+					character = line[i];
+					if (character == '}')
+						table->push_back({ userMapDict["name"], userMapDict["surname"], userMapDict["age"], userMapDict["id"], userMapDict["type"], userMapDict["country"] });
 
-				if (character == '"') {
-					for (;;) {
-						character = std::getchar();
-						if (!(character == '"')) key.push_back(character); else break;
+					if (character == ']')
+						file.close();
+
+					if (character == '"') {
+						for (;;) {
+							character = line[++i];
+							if (character == '"')
+								break;
+
+							key.push_back(character);
+						}
 					}
-				}
 
-				if (character == ':'){
-					for (;;) {
-						character = std::getchar();
-						if (!(character == '\n')) value.push_back(character); else break;
+					if (character == ':') {
+						for (;;) {
+							character = line[++i];
+							if (character == '"') {
+								character = line[++i];
+							}
+							if (i == line.length())
+								break;
+							if (character == ',') {
+								i++;
+								break;
+							}
+
+							value.push_back(character);
+						}
 					}
+
+					if (character = '"' && !(key == "" || value == ""))
+						userMapDict[key] = value;
 				}
-
-				if (!(key == "" || value == ""))
-					userTagDict[key] = value;
-				
-
-				if (character == '}') {
-					User user = {userTagDict["name"], userTagDict["surname"], userTagDict["age"], userTagDict["id"], userTagDict["type"], userTagDict["country"]};
-					this->initDataMap(); //Powinio zresetowaæ wartoœci
-				}
-
-				if (character == ']')
-					file.close();
-
 			} while (file.is_open());
+			this->showVector(table);
 			break;
 		case FileExtension::csv :
 
 			break;
 		case FileExtension::txt :
-
+			
 			break;
 	default:
-		return ErrorCode::ErrorFileExtension;
+		throw ErrorCode::ErrorFileExtension;
 	}
 }
 bool FileMenager::isFileExisting() {
-	std::ofstream file;
+	std::ifstream file;
 	file.open(this->fileName+getExtension(), std::ios::out);
 	if (file.is_open()){
 		file.close();
@@ -89,4 +103,16 @@ bool FileMenager::isFileExisting() {
 	}
 	file.close();
 	return false;
+}
+
+//Funkcja pogl¹dowa
+void FileMenager::showVector(std::vector<User> *table) {
+	for (int i = 0; i < table->size(); i++) {
+		std::cout << table->at(i).getName() << ", "
+			<< table->at(i).getSurname() << ", "
+			<< table->at(i).getAge() << ", "
+			<< table->at(i).getId() << ", "
+			<< table->at(i).getType() << ", "
+			<< table->at(i).getCountry() << "\n";
+	}
 }

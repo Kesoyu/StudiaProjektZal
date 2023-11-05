@@ -3,33 +3,17 @@
 #include <cstdlib>
 #include <vector>
 #include <string>
-#include "User.cpp"
+#include "FileMenager.h"
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    FileMenager fileMenager =  FileMenager("DataJson", FileExtension::json);
     
-    std::fstream plik;
-    std::vector<User> users;
-    plik.open("Data.txt", std::ios::in);
-    if (plik.good() == true)
-    {
-        while (!plik.eof())
-        {
-            std::string name;
-            std::string lastname;
-            std::string idx;
-            getline(plik, name, ';');
-            getline(plik, lastname, ';');
-            getline(plik, idx, ';');
-            std::cout << name << lastname << idx << "\n";
-            //std::cin >> name;
-            //int id = std::stoi(idx);
-            //User user = { name, lastname, id };
-            //users.push_back(user);
-            //std::cout << users[users.size()-1].getFirstName() << "\n";
-        }
-        plik.close();
-    }
+    std::vector<User> * users = new std::vector<User>;
+    fileMenager.getData(users);
+    
+    
+     
     return(0);
 }

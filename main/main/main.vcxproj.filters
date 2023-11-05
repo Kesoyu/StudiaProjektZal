@@ -27,11 +27,11 @@
     <ClCompile Include="FileMenager.cpp">
       <Filter>Pliki zasobów</Filter>
     </ClCompile>
-    <ClCompile Include="ErrorCode.cpp">
-      <Filter>Pliki zasobów</Filter>
+    <ClCompile Include="ErrorCode.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
-    <ClCompile Include="FileExtension.cpp">
-      <Filter>Pliki zasobów</Filter>
+    <ClCompile Include="FileExtension.h">
+      <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

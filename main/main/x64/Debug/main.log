@@ -1,7 +1,3 @@
 ﻿  FileMenager.cpp
-C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): error C2512: "User": niedostępny odpowiedni konstruktor domyślny
-C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): message : "User::User": niedostępny odpowiedni konstruktor domyślny
-C:\StudiaProjektZal\main\main\FileMenager.cpp(64,18): message : podczas próby dopasowania listy argumentów "()"
-C:\StudiaProjektZal\main\main\FileMenager.cpp(65,6): error C2143: błąd składniowy: brakuje „;” przed „this”
-  User.cpp
-  Generowanie kodu...
+x64\Debug\FileMenager.obj : warning LNK4042: object specified more than once; extras ignored
+  main.vcxproj -> C:\StudiaProjektZal\main\x64\Debug\main.exe
