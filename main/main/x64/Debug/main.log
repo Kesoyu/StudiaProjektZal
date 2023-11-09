@@ -1,3 +1,4 @@
-﻿  FileMenager.cpp
-x64\Debug\FileMenager.obj : warning LNK4042: object specified more than once; extras ignored
+﻿  main.cpp
+C:\StudiaProjektZal\main\main\User.cpp(25,39): warning C4101: 'e': unreferenced local variable
+C:\StudiaProjektZal\main\main\User.cpp(28,35): warning C4101: 'e': unreferenced local variable
   main.vcxproj -> C:\StudiaProjektZal\main\x64\Debug\main.exe
