@@ -3,10 +3,10 @@
 #include "ErrorCode.h"
 struct User{
 protected:
+	int id;
 	std::string name;
 	std::string surname;
 	int age;
-	int id;
 	std::string type;
 	std::string country;
 public:

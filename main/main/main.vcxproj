@@ -127,11 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
     <ClCompile Include="ErrorCode.h" />
     <ClCompile Include="FileExtension.h" />
     <ClCompile Include="FileMenager.cpp" />
     <ClCompile Include="FileMenager.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Membership.cpp" />
+    <ClCompile Include="BorrowedRecord.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

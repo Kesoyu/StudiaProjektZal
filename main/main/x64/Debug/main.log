@@ -1,4 +1,22 @@
-﻿  main.cpp
-C:\StudiaProjektZal\main\main\User.cpp(25,39): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\User.cpp(28,35): warning C4101: 'e': unreferenced local variable
-  main.vcxproj -> C:\StudiaProjektZal\main\x64\Debug\main.exe
+﻿  Book.cpp
+  Membership.cpp
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(19,7): error C2365: "Membership::isActive": zmiana definicji; definicja poprzednia była "składowa danych"
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(9,7): message : zobacz deklarację „Membership::isActive”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(20,3): error C2059: błąd składniowy: „return”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(20,24): error C2238: nieoczekiwany(e) token(y) poprzedzający(e) ";"
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(22,7): error C2226: błąd składniowy: nieoczekiwany typ „std::string”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(22,14): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „getDate”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(22,22): error C2059: błąd składniowy: „)”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(22,24): error C2143: błąd składniowy: brakuje „;” przed „{”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(16,7): error C3861: "validateDate": identyfikatora nie odnaleziono
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(22,24): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(25,1): error C2059: błąd składniowy: „private”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(37,15): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(49,14): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(59,1): error C2059: błąd składniowy: „}”
+C:\StudiaProjektZal\StudiaProjektZal\main\main\Membership.cpp(59,1): error C2143: błąd składniowy: brakuje „;” przed „}”
+  BorrowedRecord.cpp
+  User.cpp
+C:\StudiaProjektZal\StudiaProjektZal\main\main\User.cpp(25,39): warning C4101: "e": lokalna zmienna, do której nie istnieje odwołanie
+C:\StudiaProjektZal\StudiaProjektZal\main\main\User.cpp(28,35): warning C4101: "e": lokalna zmienna, do której nie istnieje odwołanie
+  Generowanie kodu...
