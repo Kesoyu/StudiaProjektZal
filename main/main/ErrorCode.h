@@ -2,11 +2,14 @@
 #define ErrorCode_h
 
 enum ErrorCode {
-	ErrorFileName = 001,
-	ErrorFileExtension = 002,
-	InvalidIntCasting = 003,
-	InvalidIntCastingRange = 004,
-	InvalidStringLength = 005
+	ErrorFileName,
+	ErrorFileExtension,
+	InvalidIntCasting,
+	InvalidIntCastingRange,
+	InvalidStringLength,
+	InvalidDateRange,
+	ErrorConstructingDate,
+	InvalidBoolCasting 
 };
 
 #endif // !ErrorCode.h

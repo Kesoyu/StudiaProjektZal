@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Book.cpp" />
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="ErrorCode.h" />
     <ClCompile Include="FileExtension.h" />
     <ClCompile Include="FileMenager.cpp" />

@@ -31,8 +31,17 @@ int main()
         case InvalidStringLength:
             std::cerr << "Error: Invalid string length." << std::endl;
             break;
+        case InvalidDateRange:
+            std::cerr << "Error: Invalid date range" << std::endl;
+            break;
+        case ErrorConstructingDate:
+            std::cerr << "Error: Something went wrong, while constructing a Date structure." << std::endl;
+            break;
+        case InvalidBoolCasting:
+            std::cerr << "Error: Invalid bool casting." << std::endl;
+            break;
         default:
-            std::cerr << "Unknown error occurred." << std::endl;
+            std::cerr << "Something went wrong:)." << std::endl;
             break;
         }
     }

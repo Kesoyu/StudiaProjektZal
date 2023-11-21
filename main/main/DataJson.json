@@ -22,7 +22,7 @@
           {
             "name": "Skrzydła Nocy",
             "author": "Anna Kowalska",
-            "publicationDate": 2015,
+            "publicationYear": 2015,
             "genre": "Fantasy",
             "rating": "4.2",
             "returnDate": "2023-12-01"
@@ -30,7 +30,7 @@
           {
             "name": "Labirynt Czasu",
             "author": "Piotr Nowak",
-            "publicationDate": 2020,
+            "publicationYear": 2020,
             "genre": "Science Fiction",
             "rating": "4.5",
             "returnDate": "2023-11-27"
@@ -38,7 +38,7 @@
           {
             "name": "Zaklęty Las",
             "author": "Magdalena Wiśniewska",
-            "publicationDate": 2018,
+            "publicationYear": 2018,
             "genre": "Przygodowa",
             "rating": "4.0",
             "returnDate": "2023-12-05"
@@ -69,7 +69,7 @@
           {
             "name": "Głosy Przeszłości",
             "author": "Krzysztof Malinowski",
-            "publicationDate": 2019,
+            "publicationYear": 2019,
             "genre": "Historyczna",
             "rating": "4.8",
             "returnDate": "2023-11-25"
@@ -77,7 +77,7 @@
           {
             "name": "Ostatnia Nadzieja",
             "author": "Ewa Nowak",
-            "publicationDate": 2022,
+            "publicationYear": 2022,
             "genre": "Dramat",
             "rating": "4.3",
             "returnDate": "2023-12-03"
@@ -85,7 +85,7 @@
           {
             "name": "Tajemnica Starego Domu",
             "author": "Michał Kowalczyk",
-            "publicationDate": 2017,
+            "publicationYear": 2017,
             "genre": "Kryminał",
             "rating": "4.7",
             "returnDate": "2023-11-29"
@@ -95,7 +95,7 @@
           {
             "name": "Podróż Przez Czas",
             "author": "Natalia Wójcik",
-            "publicationDate": 2016,
+            "publicationYear": 2016,
             "genre": "Science Fiction",
             "rating": "4.1",
             "returnDate": "2023-12-07"
@@ -148,7 +148,7 @@
           {
             "name": "Zakazane Ulice",
             "author": "Karolina Zając",
-            "publicationDate": 2021,
+            "publicationYear": 2021,
             "genre": "Młodzieżowa",
             "rating": "3.9",
             "returnDate": "2023-12-10"
@@ -178,7 +178,7 @@
           {
             "name": "Labirynt Marzeń",
             "author": "Marcin Kowalski",
-            "publicationDate": 2018,
+            "publicationYear": 2018,
             "genre": "Fantasy",
             "rating": "4.6",
             "returnDate": "2023-12-14"
@@ -186,7 +186,7 @@
           {
             "name": "Szepty Nocy",
             "author": "Alicja Nowak",
-            "publicationDate": 2016,
+            "publicationYear": 2016,
             "genre": "Thriller",
             "rating": "4.4",
             "returnDate": "2023-12-02"
@@ -194,7 +194,7 @@
           {
             "name": "Ostatni Rozdział",
             "author": "Jan Kowalczyk",
-            "publicationDate": 2020,
+            "publicationYear": 2020,
             "genre": "Dramat",
             "rating": "4.2",
             "returnDate": "2023-12-09"
@@ -202,7 +202,7 @@
           {
             "name": "Śladami Przeszłości",
             "author": "Anna Wiśniewska",
-            "publicationDate": 2019,
+            "publicationYear": 2019,
             "genre": "Historyczna",
             "rating": "4.7",
             "returnDate": "2023-12-04"
@@ -210,7 +210,7 @@
           {
             "name": "Zapomniana Wyspa",
             "author": "Piotr Zając",
-            "publicationDate": 2017,
+            "publicationYear": 2017,
             "genre": "Przygodowa",
             "rating": "4.0",
             "returnDate": "2023-12-06"
@@ -218,7 +218,7 @@
           {
             "name": "Szeptem Nocy",
             "author": "Katarzyna Malinowska",
-            "publicationDate": 2018,
+            "publicationYear": 2018,
             "genre": "Romans",
             "rating": "4.5",
             "returnDate": "2023-12-08"
@@ -228,7 +228,7 @@
           {
             "name": "Ostatnie Światło",
             "author": "Marek Nowak",
-            "publicationDate": 2021,
+            "publicationYear": 2021,
             "genre": "Science Fiction",
             "rating": "4.3",
             "returnDate": "2023-12-12"
