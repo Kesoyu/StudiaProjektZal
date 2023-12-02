@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AllowedJsonObject.h" />
     <ClCompile Include="Book.cpp" />
     <ClCompile Include="Date.cpp" />
     <ClCompile Include="ErrorCode.h" />

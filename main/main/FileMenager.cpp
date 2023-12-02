@@ -22,6 +22,18 @@ std::string FileMenager::getExtension() {
 	};
 }
 
+std::string getAllowedStringValue(const AllowedJsonObject ev) {
+	switch (ev) {
+	case AllowedJsonObject::Users: return "users";
+	case AllowedJsonObject::Membership: return "membership";
+	case AllowedJsonObject::BorrowedItems: return "borrowedItems";
+	case AllowedJsonObject::Items: return "items";
+	case AllowedJsonObject::Books: return "books";
+	case AllowedJsonObject::Audiobooks: return "audiobooks";
+	default: return "";
+	};
+}
+
 void FileMenager::getData(std::vector<User> *table) {
 	if (getExtension() == "") {
 		throw ErrorCode::ErrorFileExtension;
@@ -32,6 +44,9 @@ void FileMenager::getData(std::vector<User> *table) {
 	}
 	std::ifstream file;
 	file.open(this->fileName + getExtension(), std::ios::out);
+	int bracketCounter = 0, squareBracketCounter = 0;
+	std::stack<std::string> lastObjectKey;
+	bool doInsert = false;
 	switch (fileExtension)
 	{
 		case FileExtension::json :
@@ -45,10 +60,36 @@ void FileMenager::getData(std::vector<User> *table) {
 
 				for (int i = 0; i <= line.length(); i++) {
 					character = line[i];
-					if (character == '}')
-						table->push_back({ userMapDict["name"], userMapDict["surname"], userMapDict["age"], userMapDict["id"], userMapDict["type"], userMapDict["country"] });
+					//if (character == '}')
+					//	table->push_back({ userMapDict["name"], userMapDict["surname"], userMapDict["age"], userMapDict["id"], userMapDict["type"], userMapDict["country"] });
 
-					if (character == ']')
+					switch (character)
+					{
+					case '{':
+						bracketCounter++;
+						i = 0;
+						for (;;) {
+							character = line[i];
+							if (character == '"' && i == line.length() - 1) {
+								if (i == line.length() - 1)
+									i++;
+							}
+								
+							
+						}
+						break;
+					case '}':
+						bracketCounter--;
+						break;
+					case '[':
+						squareBracketCounter++;
+						break;
+					case ']':
+						squareBracketCounter--;
+						break;
+					}
+
+					if (bracketCounter == 0)
 						file.close();
 
 					if (character == '"') {
