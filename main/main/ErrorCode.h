@@ -1,5 +1,5 @@
-#ifndef ErrorCode_h
-#define ErrorCode_h
+#ifndef ERRORCODE_H
+#define ERRORCODE_H
 
 enum ErrorCode {
 	ErrorFileName,
@@ -12,4 +12,4 @@ enum ErrorCode {
 	InvalidBoolCasting 
 };
 
-#endif // !ErrorCode.h
+#endif ERRORCODE_H

@@ -1,5 +1,5 @@
-#ifndef FileExtension_h
-#define FileExtension_h
+#ifndef FILEEXTENSION_H
+#define FILEEXTENSION_H
 
 enum FileExtension
 {
@@ -8,4 +8,4 @@ enum FileExtension
 	txt
 };
 
-#endif // !FileExtension.h
+#endif FILEEXTENSION_H

@@ -1,5 +1,5 @@
-#ifndef AllowedJsonObject_h
-#define AllowedJsonObject_h
+#ifndef ALLOWEDJSONOBJECT_H
+#define ALLOWEDJSONOBJECT_H
 
 enum AllowedJsonObject {
 	Users,
@@ -10,4 +10,4 @@ enum AllowedJsonObject {
 	Audiobooks,
 };
 
-#endif // !AllowedJsonObject.h
+#endif ALLOWEDJSONOBJECT_H

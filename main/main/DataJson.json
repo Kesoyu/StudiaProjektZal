@@ -25,7 +25,8 @@
             "publicationYear": 2015,
             "genre": "Fantasy",
             "rating": "4.2",
-            "returnDate": "2023-12-01"
+            "returnDate": "2023-12-01",
+            "pages": 398
           },
           {
             "name": "Labirynt Czasu",
@@ -33,7 +34,8 @@
             "publicationYear": 2020,
             "genre": "Science Fiction",
             "rating": "4.5",
-            "returnDate": "2023-11-27"
+            "returnDate": "2023-11-27",
+            "pages": 502
           },
           {
             "name": "Zaklęty Las",
@@ -41,7 +43,8 @@
             "publicationYear": 2018,
             "genre": "Przygodowa",
             "rating": "4.0",
-            "returnDate": "2023-12-05"
+            "returnDate": "2023-12-05",
+            "pages": 312
           }
         ],
         "audiobooks": []
@@ -72,7 +75,8 @@
             "publicationYear": 2019,
             "genre": "Historyczna",
             "rating": "4.8",
-            "returnDate": "2023-11-25"
+            "returnDate": "2023-11-25",
+            "pages": 557
           },
           {
             "name": "Ostatnia Nadzieja",
@@ -80,7 +84,8 @@
             "publicationYear": 2022,
             "genre": "Dramat",
             "rating": "4.3",
-            "returnDate": "2023-12-03"
+            "returnDate": "2023-12-03",
+            "pages": 184
           },
           {
             "name": "Tajemnica Starego Domu",
@@ -88,7 +93,8 @@
             "publicationYear": 2017,
             "genre": "Kryminał",
             "rating": "4.7",
-            "returnDate": "2023-11-29"
+            "returnDate": "2023-11-29",
+            "pages": 626
           }
         ],
         "audiobooks": [
@@ -98,7 +104,8 @@
             "publicationYear": 2016,
             "genre": "Science Fiction",
             "rating": "4.1",
-            "returnDate": "2023-12-07"
+            "returnDate": "2023-12-07",
+            "duration": "29:45"
           }
         ]
       }
@@ -151,7 +158,8 @@
             "publicationYear": 2021,
             "genre": "Młodzieżowa",
             "rating": "3.9",
-            "returnDate": "2023-12-10"
+            "returnDate": "2023-12-10",
+            "duration": "11:12"
           }
         ]
       }
@@ -181,7 +189,8 @@
             "publicationYear": 2018,
             "genre": "Fantasy",
             "rating": "4.6",
-            "returnDate": "2023-12-14"
+            "returnDate": "2023-12-14",
+            "pages": 230
           },
           {
             "name": "Szepty Nocy",
@@ -189,7 +198,8 @@
             "publicationYear": 2016,
             "genre": "Thriller",
             "rating": "4.4",
-            "returnDate": "2023-12-02"
+            "returnDate": "2023-12-02",
+            "pages": 333
           },
           {
             "name": "Ostatni Rozdział",
@@ -197,7 +207,8 @@
             "publicationYear": 2020,
             "genre": "Dramat",
             "rating": "4.2",
-            "returnDate": "2023-12-09"
+            "returnDate": "2023-12-09",
+            "pages": 687
           },
           {
             "name": "Śladami Przeszłości",
@@ -205,7 +216,8 @@
             "publicationYear": 2019,
             "genre": "Historyczna",
             "rating": "4.7",
-            "returnDate": "2023-12-04"
+            "returnDate": "2023-12-04",
+            "pages": 471
           },
           {
             "name": "Zapomniana Wyspa",
@@ -213,7 +225,8 @@
             "publicationYear": 2017,
             "genre": "Przygodowa",
             "rating": "4.0",
-            "returnDate": "2023-12-06"
+            "returnDate": "2023-12-06",
+            "pages": 432
           },
           {
             "name": "Szeptem Nocy",
@@ -221,7 +234,8 @@
             "publicationYear": 2018,
             "genre": "Romans",
             "rating": "4.5",
-            "returnDate": "2023-12-08"
+            "returnDate": "2023-12-08",
+            "pages": 654
           }
         ],
         "audiobooks": [
@@ -231,7 +245,8 @@
             "publicationYear": 2021,
             "genre": "Science Fiction",
             "rating": "4.3",
-            "returnDate": "2023-12-12"
+            "returnDate": "2023-12-12",
+            "duration": "08:50"
           }
         ]
       }

@@ -22,7 +22,7 @@ std::string FileMenager::getExtension() {
 	};
 }
 
-std::string getAllowedStringValue(const AllowedJsonObject ev) {
+std::string FileMenager::getAllowedStringValue(const AllowedJsonObject ev) {
 	switch (ev) {
 	case AllowedJsonObject::Users: return "users";
 	case AllowedJsonObject::Membership: return "membership";

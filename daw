@@ -1,0 +1,59 @@
+[33mcommit 40a48a7beb5a9da9104e79ee7c7a11c0cb694e41[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Mon Nov 20 14:31:51 2023 +0100
+
+    json modfiy, membership.cpp
+
+[33mcommit 2bf5580dcc0cf038fdb70f80bc6303b19bae20d2[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Thu Nov 9 20:25:39 2023 +0100
+
+    struct User validation, Error handling
+
+[33mcommit 516066b5cdaa567a72ffd9ae3181786d380bbd7d[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sun Nov 5 21:57:45 2023 +0100
+
+    json do obiektu
+
+[33mcommit 80ca0b660aab1b2acb094263f43f84f36bf31b68[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sun Oct 29 23:07:27 2023 +0100
+
+    podpiecie mapy
+
+[33mcommit 7b5d525938939ef344b793f15ed23593a6264c4c[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sun Oct 29 21:28:45 2023 +0100
+
+    dictionary/map
+
+[33mcommit 3578b771f73aa3f5aef3614b4f11f29fe8e76d2a[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sun Oct 29 18:54:39 2023 +0100
+
+    bugged
+
+[33mcommit 3803169a34116f619b9e99ec54d2f8056e96e537[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sun Oct 29 18:50:44 2023 +0100
+
+    walidacja pliku, początek wczytywania i parsowania
+
+[33mcommit dd711cd4114a32ea1480a5533f28c63c6d30b98c[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Sat Oct 28 23:00:38 2023 +0200
+
+    struktura file i json
+
+[33mcommit 35d5f7f8ace354455a22d3fe340a1eb9a211a70a[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Fri Oct 27 16:36:35 2023 +0200
+
+    getData
+
+[33mcommit d56c503559b596bf1a686e7c3cf937789270b5dc[m
+Author: Kesoyu <janusztm4@gmail.com>
+Date:   Fri Oct 27 15:59:11 2023 +0200
+
+    init

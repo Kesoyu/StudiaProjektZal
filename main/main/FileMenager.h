@@ -7,7 +7,7 @@
 #include "ErrorCode.h"
 #include "FileExtension.h"
 #include "AllowedJsonObject.h"
-#include "User.cpp"
+#include "User.hpp"
 
 class FileMenager {
 private:
