@@ -33,7 +33,7 @@ private:
 			if (d[i] != '-')
 				str += d[i];
 
-			if (d[i] == '-' || i == d.length() - 1) {
+ 			if (d[i] == '-' || i == d.length() - 1) {
 				try {
 					test = std::stoi(str);
 				}
@@ -54,12 +54,15 @@ private:
 
 			std::tm timeInfo;
 			localtime_s(&timeInfo, &t);
+			int ct0value = stoi(container[0]);
+			int ct1value = stoi(container[1]);
+			int ct2value = stoi(container[2]);
 
-			if (!(stoi(container[0]) >= (1900 + timeInfo.tm_year) && stoi(container[0]) <= 2099))
+			if (!(ct0value >= 1900 && ct0value <= 2099))
 				throw ErrorCode::InvalidDateRange;
-			if (!(stoi(container[1]) >= (1 + timeInfo.tm_mon) && stoi(container[1]) <= 12))
+			if (!(ct1value >= 1 && ct1value <= 12))
 				throw ErrorCode::InvalidDateRange;
-			if (!(stoi(container[2]) >= timeInfo.tm_mday && stoi(container[2]) <= 31))
+			if (!(ct2value >= 1 && ct2value <= 31))
 				throw ErrorCode::InvalidDateRange;
 
 			return true;

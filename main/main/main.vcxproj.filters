@@ -30,13 +30,13 @@
     <ClCompile Include="FileExtension.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
-    <ClCompile Include="AllowedJsonObject.h">
+    <ClCompile Include="AllowedJsonElement.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
     <ClCompile Include="Book.hpp">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
-    <ClCompile Include="BorrowedRecord.hpp">
+    <ClCompile Include="BorrowedItems.hpp">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
     <ClCompile Include="Date.hpp">
@@ -46,6 +46,9 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
     <ClCompile Include="Membership.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClCompile>
+    <ClCompile Include="AllowedJsonObject.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
   </ItemGroup>

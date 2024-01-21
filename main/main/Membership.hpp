@@ -11,6 +11,7 @@ protected:
 	bool isAccountActive;
 	Date date;
 public:
+	Membership() {};
 	Membership(std::string ia, const std::string d) {
 		std::transform(ia.begin(), ia.end(), ia.begin(), ::tolower);
 		try {

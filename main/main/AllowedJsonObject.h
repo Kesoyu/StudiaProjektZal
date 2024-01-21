@@ -2,12 +2,13 @@
 #define ALLOWEDJSONOBJECT_H
 
 enum AllowedJsonObject {
+	Default,
 	Users,
-	Membership,
-	BorrowedItems,
+	Memberships,
+	BorrowedItemss,
 	Items,
-	Books,
-	Audiobooks,
+	Bookss,
+	Audiobookss,
 };
 
 #endif ALLOWEDJSONOBJECT_H

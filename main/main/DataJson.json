@@ -20,7 +20,7 @@
       "items": {
         "books": [
           {
-            "name": "Skrzydła Nocy",
+            "name": "Skrzydla Nocy",
             "author": "Anna Kowalska",
             "publicationYear": 2015,
             "genre": "Fantasy",
@@ -38,8 +38,8 @@
             "pages": 502
           },
           {
-            "name": "Zaklęty Las",
-            "author": "Magdalena Wiśniewska",
+            "name": "Zaklety Las",
+            "author": "Magdalena Wisniewska",
             "publicationYear": 2018,
             "genre": "Przygodowa",
             "rating": "4.0",
@@ -70,7 +70,7 @@
       "items": {
         "books": [
           {
-            "name": "Głosy Przeszłości",
+            "name": "Glosy Przeszlosci",
             "author": "Krzysztof Malinowski",
             "publicationYear": 2019,
             "genre": "Historyczna",
@@ -89,9 +89,9 @@
           },
           {
             "name": "Tajemnica Starego Domu",
-            "author": "Michał Kowalczyk",
+            "author": "Michal Kowalczyk",
             "publicationYear": 2017,
-            "genre": "Kryminał",
+            "genre": "Kryminal",
             "rating": "4.7",
             "returnDate": "2023-11-29",
             "pages": 626
@@ -99,8 +99,8 @@
         ],
         "audiobooks": [
           {
-            "name": "Podróż Przez Czas",
-            "author": "Natalia Wójcik",
+            "name": "Podroz Przez Czas",
+            "author": "Natalia Wojcik",
             "publicationYear": 2016,
             "genre": "Science Fiction",
             "rating": "4.1",
@@ -154,9 +154,9 @@
         "audiobooks": [
           {
             "name": "Zakazane Ulice",
-            "author": "Karolina Zając",
+            "author": "Karolina Zajac",
             "publicationYear": 2021,
-            "genre": "Młodzieżowa",
+            "genre": "Mlodziezowa",
             "rating": "3.9",
             "returnDate": "2023-12-10",
             "duration": "11:12"
@@ -184,7 +184,7 @@
       "items": {
         "books": [
           {
-            "name": "Labirynt Marzeń",
+            "name": "Labirynt Marzen",
             "author": "Marcin Kowalski",
             "publicationYear": 2018,
             "genre": "Fantasy",
@@ -202,7 +202,7 @@
             "pages": 333
           },
           {
-            "name": "Ostatni Rozdział",
+            "name": "Ostatni Rozdzial",
             "author": "Jan Kowalczyk",
             "publicationYear": 2020,
             "genre": "Dramat",
@@ -211,8 +211,8 @@
             "pages": 687
           },
           {
-            "name": "Śladami Przeszłości",
-            "author": "Anna Wiśniewska",
+            "name": "Sladami Przeszlosci",
+            "author": "Anna Wisniewska",
             "publicationYear": 2019,
             "genre": "Historyczna",
             "rating": "4.7",
@@ -221,7 +221,7 @@
           },
           {
             "name": "Zapomniana Wyspa",
-            "author": "Piotr Zając",
+            "author": "Piotr Zajac",
             "publicationYear": 2017,
             "genre": "Przygodowa",
             "rating": "4.0",
@@ -240,7 +240,7 @@
         ],
         "audiobooks": [
           {
-            "name": "Ostatnie Światło",
+            "name": "Ostatnie Swiatlo",
             "author": "Marek Nowak",
             "publicationYear": 2021,
             "genre": "Science Fiction",

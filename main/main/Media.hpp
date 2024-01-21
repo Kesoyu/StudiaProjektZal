@@ -27,7 +27,7 @@ private:
 			throw ErrorCode::InvalidIntCastingRange;
 		}
 		this->genre = g;
-		this->returnDate = Date(r);
+		this->returnDate = Date(rD);
 	}
 public:
 	friend struct Book;

@@ -1,3 +1,4 @@
+C:\StudiaProjektZal\main\main\AllowedJsonElement.h;C:\StudiaProjektZal\main\main\x64\Debug\AllowedJsonElement.obj
 C:\StudiaProjektZal\main\main\AllowedJsonObject.h;C:\StudiaProjektZal\main\main\x64\Debug\AllowedJsonObject.obj
 C:\StudiaProjektZal\main\main\Book.hpp;C:\StudiaProjektZal\main\main\x64\Debug\Book.obj
 C:\StudiaProjektZal\main\main\Date.hpp;C:\StudiaProjektZal\main\main\x64\Debug\Date.obj
@@ -7,5 +8,5 @@ C:\StudiaProjektZal\main\main\FileMenager.cpp;C:\StudiaProjektZal\main\main\x64\
 C:\StudiaProjektZal\main\main\FileMenager.h;C:\StudiaProjektZal\main\main\x64\Debug\FileMenager.obj
 C:\StudiaProjektZal\main\main\main.cpp;C:\StudiaProjektZal\main\main\x64\Debug\main.obj
 C:\StudiaProjektZal\main\main\Membership.hpp;C:\StudiaProjektZal\main\main\x64\Debug\Membership.obj
-C:\StudiaProjektZal\main\main\BorrowedRecord.hpp;C:\StudiaProjektZal\main\main\x64\Debug\BorrowedRecord.obj
+C:\StudiaProjektZal\main\main\BorrowedItems.hpp;C:\StudiaProjektZal\main\main\x64\Debug\BorrowedItems.obj
 C:\StudiaProjektZal\main\main\User.hpp;C:\StudiaProjektZal\main\main\x64\Debug\User.obj
