@@ -52,7 +52,7 @@ void FileMenager::getData(std::vector<User> *table) {
 		case FileExtension::json :
 			do {
 				char character;
-				std::string line, key = "", value = "";
+				std::string line, key = "", value = "", object = "";
 				std::getline(file, line, '\n');
 				for (int i = 0; i < line.length(); i++)
 					if (line[i] == '\n' || line[i] == '\t' || line[i] == '\b' || line[i] == ' ')
@@ -67,22 +67,24 @@ void FileMenager::getData(std::vector<User> *table) {
 					{
 					case '{':
 						bracketCounter++;
-						i = 0;
+						if (line.length() == 1)
+							break;
+						i = 1;
 						for (;;) {
-							character = line[i];
-							if (character == '"' && i == line.length() - 1) {
-								if (i == line.length() - 1)
-									i++;
-							}
-								
-							
+							character = line[++i];
+							if (character == '"')
+								break;
+
+							object.push_back(character);
 						}
+						lastObjectKey.push(object);
 						break;
 					case '}':
 						bracketCounter--;
 						break;
 					case '[':
 						squareBracketCounter++;
+
 						break;
 					case ']':
 						squareBracketCounter--;

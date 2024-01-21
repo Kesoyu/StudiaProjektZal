@@ -1,12 +1,4 @@
-﻿  Book.hpp
-C:\StudiaProjektZal\main\main\Date.hpp(40,41): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Date.hpp(43,37): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Media.hpp(23,39): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Media.hpp(26,35): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Book.hpp(15,39): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Book.hpp(18,35): warning C4101: 'e': unreferenced local variable
-  Date.hpp
-C:\StudiaProjektZal\main\main\Date.hpp(40,41): warning C4101: 'e': unreferenced local variable
-C:\StudiaProjektZal\main\main\Date.hpp(43,37): warning C4101: 'e': unreferenced local variable
-  Generating Code...
+﻿  FileMenager.cpp
+C:\StudiaProjektZal\main\main\User.hpp(28,39): warning C4101: 'e': unreferenced local variable
+C:\StudiaProjektZal\main\main\User.hpp(31,35): warning C4101: 'e': unreferenced local variable
   main.vcxproj -> C:\StudiaProjektZal\main\x64\Debug\main.exe
